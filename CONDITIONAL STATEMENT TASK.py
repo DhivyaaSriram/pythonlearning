@@ -10,23 +10,24 @@ else:
     print("You are passed in D grade")
 ##4.Program to accept a number to display a day
 day=int(input("Enter the number from 1 to 7:"))
-if day==1:
-    print("the day is sunday")
-elif day==2:
-    print("The day is monday")
-elif day==3:
-    print("the day is tuesday")
-elif day==4:
-    print("the day is wednesday")
-elif day==5:
-    print("the day is thursday")
-elif day==6:
-    print("the day is friday")
-elif day==7:
-    print("the day is saturday")
+if day<=7:
+    if day==1:
+        print("the day is sunday")
+    elif day==2:
+        print("The day is monday")
+    elif day==3:
+        print("the day is tuesday")
+    elif day==4:
+        print("the day is wednesday")
+    elif day==5:
+        print("the day is thursday")
+    elif day==6:
+        print("the day is friday")
+    elif day==7:
+        print("the day is saturday")
 else:
-    print("it is invalid")
-    
+    print("invalid")
+
 ##5.Program to accept a number to display a month and no. of days
 month=int(input("enter the number from 1 to 12:"))
 if month==1:
